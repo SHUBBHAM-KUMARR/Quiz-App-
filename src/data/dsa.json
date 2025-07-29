@@ -1,54 +1,183 @@
 {
-    "questions": [
-        {
-            "question": "What is the time complexity of binary search?",
-            "options": [
-                "O(log n)",
-                "O(n)",
-                "O(n^2)",
-                "O(1)"
-            ],
-            "answer": "O(log n)"
-        },
-        {
-            "question": "Which data structure follows LIFO principle?",
-            "options": [
-                "Stack",
-                "Queue",
-                "Array",
-                "Tree"
-            ],
-            "answer": "Stack"
-        },
-        {
-            "question": "What is the space complexity of Quick Sort in worst case?",
-            "options": [
-                "O(log n)",
-                "O(n)",
-                "O(n^2)",
-                "O(1)"
-            ],
-            "answer": "O(log n)"
-        },
-        {
-            "question": "Which of these is NOT a type of tree traversal?",
-            "options": [
-                "Sideways",
-                "Inorder",
-                "Preorder",
-                "Postorder"
-            ],
-            "answer": "Sideways"
-        },
-        {
-            "question": "What is the best case time complexity of bubble sort?",
-            "options": [
-                "O(n)",
-                "O(log n)",
-                "O(n^2)",
-                "O(1)"
-            ],
-            "answer": "O(n)"
-        }
-    ]
-} 
+  "questions": [
+    {
+      "question": "What is the time complexity of binary search?",
+      "options": ["O(log n)", "O(n)", "O(n^2)", "O(1)"],
+      "answer": "O(log n)"
+    },
+    {
+      "question": "Which data structure follows LIFO principle?",
+      "options": ["Stack", "Queue", "Array", "Tree"],
+      "answer": "Stack"
+    },
+    {
+      "question": "What is the space complexity of Quick Sort in worst case?",
+      "options": ["O(log n)", "O(n)", "O(n^2)", "O(1)"],
+      "answer": "O(log n)"
+    },
+    {
+      "question": "Which of these is NOT a type of tree traversal?",
+      "options": ["Sideways", "Inorder", "Preorder", "Postorder"],
+      "answer": "Sideways"
+    },
+    {
+      "question": "What is the best case time complexity of bubble sort?",
+      "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+      "answer": "O(n)"
+    },
+    {
+      "question": "Which data structure uses FIFO order?",
+      "options": ["Queue", "Stack", "Graph", "Tree"],
+      "answer": "Queue"
+    },
+    {
+      "question": "What is the worst-case time complexity of linear search?",
+      "options": ["O(n)", "O(log n)", "O(1)", "O(n^2)"],
+      "answer": "O(n)"
+    },
+    {
+      "question": "Which of the following is a stable sorting algorithm?",
+      "options": ["Merge Sort", "Quick Sort", "Heap Sort", "Selection Sort"],
+      "answer": "Merge Sort"
+    },
+    {
+      "question": "What is the output of topological sort used for?",
+      "options": ["Ordering tasks", "Searching in a tree", "Finding cycles", "Sorting arrays"],
+      "answer": "Ordering tasks"
+    },
+    {
+      "question": "Which data structure is used in BFS?",
+      "options": ["Queue", "Stack", "Priority Queue", "Heap"],
+      "answer": "Queue"
+    },
+    {
+      "question": "What does DFS stand for?",
+      "options": ["Depth First Search", "Data Flow Search", "Data File Sort", "Depth File Search"],
+      "answer": "Depth First Search"
+    },
+    {
+      "question": "Which of these is used to implement recursion?",
+      "options": ["Stack", "Queue", "Heap", "Array"],
+      "answer": "Stack"
+    },
+    {
+      "question": "What is the time complexity of accessing an element in an array?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+      "answer": "O(1)"
+    },
+    {
+      "question": "Which of the following is NOT a divide-and-conquer algorithm?",
+      "options": ["Binary Search", "Merge Sort", "Quick Sort", "Bubble Sort"],
+      "answer": "Bubble Sort"
+    },
+    {
+      "question": "Which traversal gives sorted output in a BST?",
+      "options": ["Inorder", "Preorder", "Postorder", "Level Order"],
+      "answer": "Inorder"
+    },
+    {
+      "question": "What is the auxiliary space of merge sort?",
+      "options": ["O(n)", "O(1)", "O(log n)", "O(n log n)"],
+      "answer": "O(n)"
+    },
+    {
+      "question": "Which of the following finds the shortest path in weighted graphs?",
+      "options": ["Dijkstra's Algorithm", "DFS", "BFS", "Kruskal’s Algorithm"],
+      "answer": "Dijkstra's Algorithm"
+    },
+    {
+      "question": "Which of the following uses Union-Find data structure?",
+      "options": ["Kruskal’s Algorithm", "Prim’s Algorithm", "Dijkstra’s Algorithm", "DFS"],
+      "answer": "Kruskal’s Algorithm"
+    },
+    {
+      "question": "Which heap is used for implementing a priority queue?",
+      "options": ["Binary Heap", "Ternary Heap", "Fibonacci Heap", "Min-Max Heap"],
+      "answer": "Binary Heap"
+    },
+    {
+      "question": "Which algorithm is used for cycle detection in a graph?",
+      "options": ["DFS", "BFS", "Dijkstra", "Topological Sort"],
+      "answer": "DFS"
+    },
+    {
+      "question": "Which of the following has a best case time complexity of O(n log n)?",
+      "options": ["Merge Sort", "Quick Sort", "Bubble Sort", "Insertion Sort"],
+      "answer": "Merge Sort"
+    },
+    {
+      "question": "Which algorithm is used to detect negative weight cycles?",
+      "options": ["Bellman-Ford", "Dijkstra", "Prim’s", "Floyd Warshall"],
+      "answer": "Bellman-Ford"
+    },
+    {
+      "question": "What is the height of a complete binary tree with n nodes?",
+      "options": ["O(log n)", "O(n)", "O(n log n)", "O(1)"],
+      "answer": "O(log n)"
+    },
+    {
+      "question": "What does the sliding window technique optimize?",
+      "options": ["Time complexity for subarray problems", "Space complexity in trees", "Recursion calls", "Graph cycles"],
+      "answer": "Time complexity for subarray problems"
+    },
+    {
+      "question": "Which sorting algorithm is in-place and unstable?",
+      "options": ["Quick Sort", "Merge Sort", "Bubble Sort", "Insertion Sort"],
+      "answer": "Quick Sort"
+    },
+    {
+      "question": "In a min heap, the smallest element is located at?",
+      "options": ["Root", "Leaf", "Middle", "Rightmost Leaf"],
+      "answer": "Root"
+    },
+    {
+      "question": "Which algorithm is used in finding strongly connected components?",
+      "options": ["Kosaraju's Algorithm", "Dijkstra's", "Kruskal's", "Floyd Warshall"],
+      "answer": "Kosaraju's Algorithm"
+    },
+    {
+      "question": "What is the time complexity of finding the median of two sorted arrays?",
+      "options": ["O(log(min(n, m)))", "O(n + m)", "O(n^2)", "O(log(nm))"],
+      "answer": "O(log(min(n, m)))"
+    },
+    {
+      "question": "What is the minimum number of edges in a connected graph with n vertices?",
+      "options": ["n - 1", "n", "n + 1", "n^2"],
+      "answer": "n - 1"
+    },
+    {
+      "question": "Which algorithm solves the Longest Increasing Subsequence in O(n log n)?",
+      "options": ["Binary Search with DP", "Kadane’s Algorithm", "Greedy", "Merge Sort"],
+      "answer": "Binary Search with DP"
+    },
+    
+  
+    {
+      "question": "Which of the following algorithms is used to find articulation points in a graph?",
+      "options": ["Tarjan’s Algorithm", "Dijkstra’s Algorithm", "Kruskal’s Algorithm", "Prim’s Algorithm"],
+      "answer": "Tarjan’s Algorithm"
+    },
+    {
+      "question": "What is the time complexity of inserting into a Binary Search Tree (average case)?",
+      "options": ["O(log n)", "O(n)", "O(n log n)", "O(1)"],
+      "answer": "O(log n)"
+    },
+    {
+      "question": "Which data structure is used for implementing backtracking algorithms like N-Queens?",
+      "options": ["Stack", "Queue", "Heap", "Set"],
+      "answer": "Stack"
+    },
+    {
+      "question": "Which of the following is an application of dynamic programming?",
+      "options": ["0/1 Knapsack Problem", "DFS Traversal", "Heap Sort", "Topological Sort"],
+      "answer": "0/1 Knapsack Problem"
+    },
+    {
+      "question": "Which of these problems is best solved using the Greedy approach?",
+      "options": ["Activity Selection", "Edit Distance", "Longest Common Subsequence", "Matrix Chain Multiplication"],
+      "answer": "Activity Selection"
+    }
+
+
+  ]
+}
